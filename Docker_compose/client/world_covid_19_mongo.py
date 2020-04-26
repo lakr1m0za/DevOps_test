@@ -1,5 +1,6 @@
 import requests
 import pymongo
+import json
 from bs4 import BeautifulSoup
 
 url = "https://www.worldometers.info/coronavirus"
@@ -16,7 +17,7 @@ db = client['covid19_test']
 col = db.col
 
 mydict = {"confirmed": con, "death": de, "health": he}
-x = col.insert_one(mydict)
+x = col.insert_one(json.dumps(mydict))
 
 for x in col.find():
     print (x)
