@@ -1,0 +1,27 @@
+---
+
+- hosts: web
+  user: ubuntu
+  become: yes
+  tasks:
+  - name: Install nginx package
+    apt:
+      name: nginx
+      state: latest
+  - name: check nginx service status
+    service:
+      name: nginx
+      state: started
+
+- hosts: db
+  user: ubuntu
+  become: yes
+  tasks:
+  - name: Install postgresql package
+    apt:
+      name: postgresql
+      state: latest
+  - name: check postgresql service status
+    service:
+      name: postgresql
+      state: started

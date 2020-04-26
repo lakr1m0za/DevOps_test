@@ -1,0 +1,6 @@
+[db]
+3.23.59.51 ansible_user=ubuntu ansible_python_interpreter=/usr/bin/python3
+[web]
+18.222.95.194 ansible_user=ubuntu ansible_python_interpreter=/usr/bin/python3
+#[aws]
+#13.59.152.132 ansibe_user=ubuntu ansible_python_interpreter=/usr/bin/python3
