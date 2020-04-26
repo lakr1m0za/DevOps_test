@@ -1,0 +1,175 @@
+2020-04-26 14:16:09,404 p=7746 u=arty n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2020-04-26 14:16:09,405 p=7746 u=arty n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: experiments
+
+2020-04-26 14:17:21,588 p=7816 u=arty n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2020-04-26 14:17:21,589 p=7816 u=arty n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: experiments
+
+2020-04-26 14:21:07,216 p=7890 u=arty n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2020-04-26 14:24:19,571 p=7918 u=arty n=ansible | 3.136.155.239 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: arty@3.136.155.239: Permission denied (publickey).", 
+    "unreachable": true
+}
+2020-04-26 14:24:25,288 p=7918 u=arty n=ansible | 3.23.100.214 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: Host key verification failed.", 
+    "unreachable": true
+}
+2020-04-26 14:24:26,306 p=7918 u=arty n=ansible | 18.191.191.223 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: Host key verification failed.", 
+    "unreachable": true
+}
+2020-04-26 14:33:02,749 p=8060 u=arty n=ansible | 3.136.155.239 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: arty@3.136.155.239: Permission denied (publickey).", 
+    "unreachable": true
+}
+2020-04-26 14:33:04,324 p=8060 u=arty n=ansible | 3.23.100.214 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: Host key verification failed.", 
+    "unreachable": true
+}
+2020-04-26 14:33:05,059 p=8060 u=arty n=ansible | 18.191.191.223 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: Host key verification failed.", 
+    "unreachable": true
+}
+2020-04-26 14:48:51,477 p=8683 u=arty n=ansible | 3.136.155.239 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: arty@3.136.155.239: Permission denied (publickey).", 
+    "unreachable": true
+}
+2020-04-26 14:48:52,567 p=8683 u=arty n=ansible | 3.23.100.214 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: Host key verification failed.", 
+    "unreachable": true
+}
+2020-04-26 14:48:53,211 p=8683 u=arty n=ansible | 18.191.191.223 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: Host key verification failed.", 
+    "unreachable": true
+}
+2020-04-26 14:49:41,055 p=8721 u=arty n=ansible | 3.136.155.239 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: arty@3.136.155.239: Permission denied (publickey).", 
+    "unreachable": true
+}
+2020-04-26 14:49:42,469 p=8721 u=arty n=ansible | 3.23.100.214 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: Host key verification failed.", 
+    "unreachable": true
+}
+2020-04-26 14:49:43,387 p=8721 u=arty n=ansible | 18.191.191.223 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: Host key verification failed.", 
+    "unreachable": true
+}
+2020-04-26 14:55:21,882 p=8764 u=arty n=ansible | 3.136.155.239 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: arty@3.136.155.239: Permission denied (publickey).", 
+    "unreachable": true
+}
+2020-04-26 14:55:24,538 p=8764 u=arty n=ansible | 3.23.100.214 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: Host key verification failed.", 
+    "unreachable": true
+}
+2020-04-26 14:55:25,083 p=8764 u=arty n=ansible | 18.191.191.223 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: Host key verification failed.", 
+    "unreachable": true
+}
+2020-04-26 15:08:36,226 p=8841 u=arty n=ansible | 3.19.58.54 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: Warning: Permanently added '3.19.58.54' (ECDSA) to the list of known hosts.\r\narty@3.19.58.54: Permission denied (publickey).", 
+    "unreachable": true
+}
+2020-04-26 15:08:37,984 p=8841 u=arty n=ansible | 3.134.114.194 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: Host key verification failed.", 
+    "unreachable": true
+}
+2020-04-26 15:08:38,500 p=8841 u=arty n=ansible | 18.222.232.9 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: Host key verification failed.", 
+    "unreachable": true
+}
+2020-04-26 15:14:33,338 p=8914 u=arty n=ansible | 18.222.232.9 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: arty@18.222.232.9: Permission denied (publickey).", 
+    "unreachable": true
+}
+2020-04-26 15:14:33,377 p=8914 u=arty n=ansible | 3.19.58.54 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: arty@3.19.58.54: Permission denied (publickey).", 
+    "unreachable": true
+}
+2020-04-26 15:14:35,101 p=8914 u=arty n=ansible | 3.134.114.194 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: Host key verification failed.", 
+    "unreachable": true
+}
+2020-04-26 15:21:02,904 p=8974 u=arty n=ansible | 3.134.114.194 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: arty@3.134.114.194: Permission denied (publickey).", 
+    "unreachable": true
+}
+2020-04-26 15:21:02,992 p=8974 u=arty n=ansible | 18.222.232.9 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: arty@18.222.232.9: Permission denied (publickey).", 
+    "unreachable": true
+}
+2020-04-26 15:21:02,997 p=8974 u=arty n=ansible | 3.19.58.54 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: arty@3.19.58.54: Permission denied (publickey).", 
+    "unreachable": true
+}
+2020-04-26 15:24:39,173 p=9034 u=arty n=ansible | 3.19.58.54 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: ubuntu@3.19.58.54: Permission denied (publickey).", 
+    "unreachable": true
+}
+2020-04-26 15:24:39,215 p=9034 u=arty n=ansible | 18.222.232.9 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: ubuntu@18.222.232.9: Permission denied (publickey).", 
+    "unreachable": true
+}
+2020-04-26 15:24:39,254 p=9034 u=arty n=ansible | 3.134.114.194 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: arty@3.134.114.194: Permission denied (publickey).", 
+    "unreachable": true
+}
+2020-04-26 15:27:08,399 p=9074 u=arty n=ansible | 3.134.114.194 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: arty@3.134.114.194: Permission denied (publickey).", 
+    "unreachable": true
+}
+2020-04-26 15:27:08,401 p=9074 u=arty n=ansible | 3.19.58.54 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: ubuntu@3.19.58.54: Permission denied (publickey).", 
+    "unreachable": true
+}
+2020-04-26 15:27:08,425 p=9074 u=arty n=ansible | 18.222.232.9 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: ubuntu@18.222.232.9: Permission denied (publickey).", 
+    "unreachable": true
+}
+2020-04-26 15:33:12,469 p=9200 u=arty n=ansible | 3.19.58.54 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: ubuntu@3.19.58.54: Permission denied (publickey).", 
+    "unreachable": true
+}
+2020-04-26 15:33:12,522 p=9200 u=arty n=ansible | 3.134.114.194 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: arty@3.134.114.194: Permission denied (publickey).", 
+    "unreachable": true
+}
+2020-04-26 15:33:12,548 p=9200 u=arty n=ansible | 18.222.232.9 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: ubuntu@18.222.232.9: Permission denied (publickey).", 
+    "unreachable": true
+}
