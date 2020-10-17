@@ -57,3 +57,6 @@ ipython_config.py
 
 ### ssh key ###
 .pem
+
+### terrafotm ###
+.terraform
