@@ -60,6 +60,3 @@ ipython_config.py
 
 ### terrafotm ###
 .terraform/
-
-### plugins ###
-plugins/
