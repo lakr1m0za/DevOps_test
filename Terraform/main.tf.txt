@@ -1,0 +1,53 @@
+provider "aws" {
+  shared_credentials_file = "/home/artyt/.aws/credentials"
+  profile = "default"
+  region = "us-east-2"
+}
+
+resource "aws_instance" "Ubuntu_test" {
+  ami = "ami-07c1207a9d40bc3bd"
+  instance_type = "t2.micro"
+  vpc_security_group_ids = ["sg-0d22bac59bbf73a68", "sg-03c92e01cfd1e3fae"]
+  user_data = file("init.sh")
+  
+  security_groups = ["SSH"]
+  user_data = file("init.sh")
+
+  tags = {
+      Name = "Test"
+  }
+}
+
+resource "aws_autoscaling_group" "group_test" {
+  availability_zones = ["us-east-2"]
+  desired_capacity   = 1
+  max_size           = 3
+  min_size           = 1
+
+  launch_template {
+    id      = "${aws_instance.Ubuntu_test.id}"
+    version = "$Latest"
+  }
+}
+
+/*
+resource "aws_lb" "test" {
+  name               = "test-lb-tf"
+  internal           = false
+  load_balancer_type = "application"
+  security_groups    = ["sg-0d22bac59bbf73a68", "sg-03c92e01cfd1e3fae"]
+  subnets            = ["${aws_subnet.public.*.id}"]
+
+  enable_deletion_protection = true
+
+  access_logs {
+    bucket  = "${aws_s3_bucket.lb_logs.bucket}"
+    prefix  = "test-lb"
+    enabled = true
+  }
+
+  tags = {
+    Environment = "production"
+  }
+}
+*/
